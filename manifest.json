@@ -1,0 +1,16 @@
+{
+  "name": "SkipYoutubeAdvertisement",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Skip Youtube Advertisement Automatically",
+  "content_scripts": [{
+      "matches": [ "http://*/*", "https://*/*" ],
+      "js": ["SkipYoutubeAdvertisement.js"]
+  }],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+},
+  "permissions": ["activeTab"]
+}
